@@ -10,3 +10,6 @@ add_executable(polynomial variables/polynomial/main.c)
 add_executable(scientific_notation variables/scientific_notation/main.c)
 add_executable(even_multiple variables/even_multiple/main.c)
 add_executable(conversions variables/conversions/main.c)
+
+add_executable(simple_for_loop loops/simple_for_loop/main.c)
+add_executable(triangular_number loops/triangular_number/main.c)
