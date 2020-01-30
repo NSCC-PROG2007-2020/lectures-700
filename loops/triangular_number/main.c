@@ -6,9 +6,12 @@ int main() {
 
     int triangular_number = 0;
 
-    for (int i = 1; i <= 5; i++) {
-       triangular_number += i; 
+    int i = 1;
+    while (i <= 5) {
+       triangular_number += i;
+       i++;
     }
+
     printf("The fifth triangular number is %i\n", triangular_number);
 
     return 0;
