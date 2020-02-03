@@ -15,3 +15,7 @@ add_executable(simple_for_loop loops/simple_for_loop/main.c)
 add_executable(triangular_number loops/triangular_number/main.c)
 add_executable(squares loops/squares/main.c)
 add_executable(digit_sum loops/digit_sum/main.c)
+add_executable(incrementer loops/incrementer/main.c)
+
+add_executable(simple_if decisions/simple_if_statement/main.c)
+add_executable(evenly_divisible decisions/evenly_divisible/main.c)
