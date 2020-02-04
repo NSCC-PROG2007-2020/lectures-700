@@ -16,12 +16,7 @@ int main() {
     printf("Enter a divisor: ");
     scanf("%i", &num2);
 
-    float float_answer = (float)num1 / num2;
-    printf("float_answer = %f\n", float_answer);
-    int   int_answer = num1 / num2;
-    printf("int_answer = %i\n", int_answer);
-
-    if (float_answer == int_answer) {
+    if (num1 % num2 == 0) {
         printf("Evenly divisible.\n");
     } else {
         printf("Not evenly divisible.\n");

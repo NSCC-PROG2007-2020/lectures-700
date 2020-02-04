@@ -19,3 +19,4 @@ add_executable(incrementer loops/incrementer/main.c)
 
 add_executable(simple_if decisions/simple_if_statement/main.c)
 add_executable(evenly_divisible decisions/evenly_divisible/main.c)
+add_executable(divide decisions/divide/main.c)
