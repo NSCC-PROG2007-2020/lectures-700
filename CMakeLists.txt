@@ -20,3 +20,8 @@ add_executable(incrementer loops/incrementer/main.c)
 add_executable(simple_if decisions/simple_if_statement/main.c)
 add_executable(evenly_divisible decisions/evenly_divisible/main.c)
 add_executable(divide decisions/divide/main.c)
+add_executable(switch decisions/switch/main.c)
+
+add_executable(simple_array arrays/simple_array/main.c)
+add_executable(simple_strings arrays/simple_strings/main.c)
+add_executable(multi_arrays arrays/multi_arrays/main.c)
