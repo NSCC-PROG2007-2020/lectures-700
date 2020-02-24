@@ -11,7 +11,7 @@ void mult_by_two(int rows, int cols, int nums[rows][cols]) {
 void mult_by_two_ptr(int *nums, int rows, int cols) {
     for (int r=0; r<rows; r++) {
         for (int c=0; c<cols; c++) {
-            *(nums + r * rows + c) *= 2;
+            *(nums + r * cols + c) *= 2;
         }
     }
 }
