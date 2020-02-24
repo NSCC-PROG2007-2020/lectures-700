@@ -25,3 +25,8 @@ add_executable(switch decisions/switch/main.c)
 add_executable(simple_array arrays/simple_array/main.c)
 add_executable(simple_strings arrays/simple_strings/main.c)
 add_executable(multi_arrays arrays/multi_arrays/main.c)
+
+add_executable(math_functions functions/math_functions/main.c)
+add_executable(static_variables functions/static_variables/main.c)
+add_executable(array_params functions/array_params/main.c)
+add_executable(two_dim_function functions/two_dim_function/main.c)
