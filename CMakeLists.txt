@@ -30,3 +30,6 @@ add_executable(math_functions functions/math_functions/main.c)
 add_executable(static_variables functions/static_variables/main.c)
 add_executable(array_params functions/array_params/main.c)
 add_executable(two_dim_function functions/two_dim_function/main.c)
+
+add_executable(simple_ptr pointers/simple_pointer/main.c)
+add_executable(string_ptr pointers/string_pointers/main.c)
